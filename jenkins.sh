@@ -25,15 +25,21 @@ firewall-cmd --reload
 
 # II-  Setting up Jenkins in the browser
 #Step 1: Open the jenkins page from the browser
-#Launch your google chrome browser an type your IP address followed by the port number 8080
-http://your_ip_or_domain:8080
+echo"Launch your google chrome browser an type your IP address followed by the port number 8080"
+#http://your_ip_or_domain:8080
 
 #Step 2: Copy and paste the administrator password
 cat /var/lib/jenkins/secrets/initialAdminPassword
-###You should see a 32-character long alphanumeric password. Copy the password and paste it into the Administrator password field in the page you have in the browser. Then click on 
+echo "Copy the password and paste it into the Administrator password field in the page you have in the browser. Then click on continue"
+
 
 #Step 3: Install suggested plugins
-Install suggested plugins
+echo "click on install suggested plugins"
 
 #Step 4: Create first admin user and password
+#When the installation will be completed, you will get a form to create the First Admin User. Fill out the form an validate on Save and Continue
+#E-mail address: use your own email address
+#Step 5: Instance Configuration
+#On the next page you will need to set the URL for the Jenkins instance. The Jenkins URL field will come with a default  value (automatically generated). Just click on Save and Finish 
 
+echo "Jenkins is now ready for use! Click on Start using Jenkins button and you will be automatically be redirected to the Jenkins dashboard"
