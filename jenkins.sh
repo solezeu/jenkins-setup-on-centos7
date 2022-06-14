@@ -35,5 +35,5 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 #Step 3: Install suggested plugins
 Install suggested plugins
 
-#Step 4: Create first admin user
+#Step 4: Create first admin user and password
 
